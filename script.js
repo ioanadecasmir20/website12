@@ -21,7 +21,7 @@ const courses = [
     ],
     assessment: "Practical assessments and short knowledge checks.",
     certificate: "Valid for 3 years (annual refreshers recommended).",
-    image: "images/courses/efaw.jpg"
+    image: "images/efaw.jpg"
   },
   {
     id: "faw",
@@ -36,7 +36,7 @@ const courses = [
     entry: ["Age 16+", "Good command of English", "Photographic ID"],
     assessment: "Practical scenarios and written assessment.",
     certificate: "Valid for 3 years.",
-    image: "images/courses/faw.jpg"
+    image: "images/faw.jpg"
   },
   {
     id: "act-security",
@@ -52,7 +52,7 @@ const courses = [
     assessment: "Online modules with knowledge checks.",
     certificate: "Digital certificate on completion.",
     externalLink: "https://protectuk.police.uk", // Confirm exact course URL
-    image: "images/courses/act-security.jpg"
+    image: "images/act-security.jpg"
   },
   {
     id: "act-awareness",
@@ -68,7 +68,7 @@ const courses = [
     assessment: "Online knowledge checks.",
     certificate: "Digital certificate on completion.",
     externalLink: "https://protectuk.police.uk", // Confirm exact course URL
-    image: "images/courses/act-awareness.jpg"
+    image: "images/act-awareness.jpg"
   },
   {
     id: "lone-working",
@@ -83,7 +83,7 @@ const courses = [
     entry: ["Suitable for security officers, supervisors and managers"],
     assessment: "Online quiz / workbook",
     certificate: "Digital certificate, 1 year recommended renewal.",
-    image: "images/courses/lone-working.jpg"
+    image: "images/lone-working.jpg"
   },
   {
     id: "asbestos",
@@ -98,7 +98,7 @@ const courses = [
     entry: ["Suitable for trades, facilities and maintenance staff"],
     assessment: "Online knowledge check",
     certificate: "Digital certificate (annual refresher advised).",
-    image: "images/courses/asbestos.jpg"
+    image: "images/asbestos.jpg"
   },
   {
     id: "care-cert",
@@ -113,7 +113,7 @@ const courses = [
     entry: ["Employed/volunteer in a care setting", "Workplace mentor for observations"],
     assessment: "Knowledge checks + practical observations",
     certificate: "Certificate of completion for 15 standards.",
-    image: "images/courses/care-certificate.jpg"
+    image: "images/care-certificate.jpg"
   },
   {
     id: "calorie",
@@ -128,7 +128,7 @@ const courses = [
     entry: ["Suitable for hospitality and catering teams"],
     assessment: "Online quiz",
     certificate: "Digital certificate of completion.",
-    image: "images/courses/calorie-labelling.jpg"
+    image: "images/calorie-labelling.jpg"
   },
   {
     id: "equality",
@@ -143,7 +143,7 @@ const courses = [
     entry: ["Suitable for all staff and managers"],
     assessment: "Online quiz",
     certificate: "Digital certificate of completion.",
-    image: "images/courses/equality-diversity.jpg"
+    image: "images/equality-diversity.jpg"
   },
   {
     id: "gdpr",
@@ -158,7 +158,7 @@ const courses = [
     entry: ["Suitable for anyone processing personal data"],
     assessment: "Online knowledge check",
     certificate: "Digital certificate of completion.",
-    image: "images/courses/gdpr.jpg"
+    image: "images/gdpr.jpg"
   }
 ];
 
