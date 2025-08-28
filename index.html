@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fleetville Training | Vocational Courses</title>
+  <meta name="description" content="Fleetville Training delivers practical vocational courses including First Aid, ACT Awareness, Lone Working, Asbestos Awareness, Care Certificate, GDPR and more." />
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/FVlogo.png" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Replace with your logo file in /images -->
+      <a href="#top" class="brand">
+        <img src="images/FVlogo.png" alt="Fleetville Training logo" class="brand-logo" />
+        <span class="brand-name">FLEETVILLE TRAINING</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" data-collapsed="true">
+        <a href="#about">About</a>
+        <a href="#home-courses">Courses</a>
+        <a href="#companies">We Support</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary btn-small" href="#courses">View All Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top" aria-label="Fleetville Training">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Practical, job-ready vocational training</h1>
+        <p>Accredited first aid, security awareness, compliance and care courses—delivered online, in-centre, or blended in Dartford and Heathrow.</p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">Explore Courses</a>
+          <a href="#contact" class="btn btn-outline">Enquire</a>
+        </div>
+      </div>
+      <!-- Optional hero image -->
+      <!-- Place a banner at images/hero.jpg -->
+      <div class="hero-art">
+        <img src="images/hero.jpg" alt="Learners in a training session" />
+      </div>
+    </div>
+    <div class="hero-swoosh" aria-hidden="true"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid-2 about-grid">
+      <div>
+        <h2>About Fleetville</h2>
+        <p>Fleetville provides vocational training built around real workplaces. Our trainers have industry backgrounds and deliver focused, confidence-building sessions with plenty of hands-on practice.</p>
+        <p>We operate from two centres—Dartford and Heathrow—and also offer flexible online and blended options so your team can learn without downtime.</p>
+        <ul class="ticks">
+          <li>Employer-friendly scheduling</li>
+          <li>Modern assessment &amp; digital certificates</li>
+          <li>Clear pricing with no surprises</li>
+        </ul>
+      </div>
+      <aside class="info-card">
+        <h3>Open Times</h3>
+        <p><strong>Mon–Fri:</strong> 09:00–17:00</p>
+        <h3>Locations</h3>
+        <p><strong>Dartford (Regus, Victory Way)</strong><br>DA2 6QD • <a href="tel:01322761149">01322 761149</a></p>
+        <p><strong>Heathrow (450 Bath Road, Longford)</strong><br>UB7 0EB • <a href="tel:02034883990">020 3488 3990</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Courses Summary -->
+  <section id="home-courses" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular Courses</h2>
+        <p>Core first aid and compliance favourites. See the full catalogue on the Courses page.</p>
+      </div>
+
+      <div id="home-courses-grid" class="course-grid" aria-live="polite"></div>
+
+      <div class="center">
+        <a href="#courses" class="btn btn-primary">View All Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies We Support -->
+  <section id="companies" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Companies we support</h2>
+        <p>From small teams to national operations.</p>
+      </div>
+      <!-- Add logos into /images/companies/ as PNG or SVG -->
+      <div class="logos-track" role="list" aria-label="Client logos">
+        <img src="images/companies/company1.png" alt="Client 1" role="listitem">
+        <img src="images/companies/company2.png" alt="Client 2" role="listitem">
+        <img src="images/companies/company3.png" alt="Client 3" role="listitem">
+        <img src="images/companies/company4.png" alt="Client 4" role="listitem">
+        <img src="images/companies/company5.png" alt="Client 5" role="listitem">
+        <img src="images/companies/company6.png" alt="Client 6" role="listitem">
+        <!-- Duplicate for smooth loop -->
+        <img src="images/companies/company1.png" alt="Client 1 duplicate" aria-hidden="true">
+        <img src="images/companies/company2.png" alt="Client 2 duplicate" aria-hidden="true">
+        <img src="images/companies/company3.png" alt="Client 3 duplicate" aria-hidden="true">
+        <img src="images/companies/company4.png" alt="Client 4 duplicate" aria-hidden="true">
+        <img src="images/companies/company5.png" alt="Client 5 duplicate" aria-hidden="true">
+        <img src="images/companies/company6.png" alt="Client 6 duplicate" aria-hidden="true">
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses (full page/section) -->
+  <section id="courses" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>All Courses</h2>
+        <p>Search, filter and compare. Click a course to view details, entry requirements, delivery and pricing.</p>
+      </div>
+
+      <form id="filters" class="filters" aria-label="Course filters">
+        <div class="field">
+          <label for="q">Search</label>
+          <input type="search" id="q" name="q" placeholder="Try 'first aid' or 'GDPR'">
+        </div>
+        <div class="field">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            <option value="">All categories</option>
+          </select>
+        </div>
+        <fieldset class="checks">
+          <legend>Delivery</legend>
+          <label><input type="checkbox" value="Classroom"> Classroom</label>
+          <label><input type="checkbox" value="Online"> Online</label>
+          <label><input type="checkbox" value="Blended"> Blended</label>
+        </fieldset>
+        <button class="btn btn-outline" type="reset">Clear</button>
+        <div class="results-count" aria-live="polite"></div>
+      </form>
+
+      <div id="courses-grid" class="course-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container grid-2 contact-grid">
+      <div>
+        <h2>Contact us</h2>
+        <p>We’ll help you choose the right training, schedule dates, and guide you through booking.</p>
+        <ul class="contact-list">
+          <li>
+            <strong>Dartford Centre</strong><br>
+            Victory Way, Regus, Dartford, DA2 6QD<br>
+            <a href="tel:01322761149">01322 761149</a>
+          </li>
+          <li>
+            <strong>Heathrow Centre</strong><br>
+            450 Bath Rd, Longford, Heathrow, West Drayton UB7 0EB<br>
+            <a href="tel:02034883990">020 3488 3990</a>
+          </li>
+          <li>
+            <strong>Email</strong><br>
+            <!-- Corrected to a valid address -->
+            <a href="mailto:info@fleetvilletraining.co.uk">info@fleetvilletraining.co.uk</a>
+          </li>
+          <li><strong>Open</strong><br>Mon–Fri, 09:00–17:00</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="mailto:info@fleetvilletraining.co.uk" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us which course you’re interested in…"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send enquiry</button>
+        <p class="small muted">Submitting opens your email client. For immediate help call either centre.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Fleetville Training</p>
+      <a class="footer-link" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
